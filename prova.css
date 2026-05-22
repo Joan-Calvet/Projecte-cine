@@ -1,0 +1,39 @@
+* {
+    color: white;
+    top: 0;
+    bottom:0;
+    margin: 0;
+    background: black;
+}
+
+header {
+    background: linear-gradient(120deg, black 40%, rgb(110,50,20) 100%);
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    display: inline-block;
+    justify-content: left;
+}
+
+header ul {
+    gap: 40px;
+    height: 100px;
+    /*DECORACIO LLISTA*/
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    background: linear-gradient(320deg, rgb(116, 42, 0) 0%, rgb(230, 84, 12) 100%);
+    padding: 1rem;
+}
+
+#logo {
+    border: solid 1px green;
+    vertical-align: middle;
+}
