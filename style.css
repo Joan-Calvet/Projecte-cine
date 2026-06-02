@@ -251,16 +251,14 @@ article:hover{
     font-size: small;
 }
 
-#dashboard_bd{
-    width: 50rem;
-}
 
-#salaiot{
-    width: 40%;
+.foto{
+    width: 60%;
     border: 0;
     text-align: center;
-    margin: 0 20%;
+    margin: 2.5% 20%;
 }
+
 
 footer{
     background-color: hsla(0, 0%, 0%, 0.75);
